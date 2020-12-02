@@ -1,0 +1,199 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zys2lck.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/zys2lck.css">
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Laguardia Spa Hotel</h1>
+
+      <div class="grid-container" data-magellan>
+    <div class="grid-x align-center">
+      <div class="cell small-4 medium-2 text-center">
+        <a href="#features"><h2>Features</h2></a>
+      </div>
+      <div class="cell small-4 medium-2 text-center">
+        <a href="#reviews"><h2>Reviews</h2></a>
+      </div>
+      <div class="cell small-4 medium-2 text-center">
+        <a href="#reservations"><h2>Reservations</h2></a>
+      </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <img src=img/hotelhero.jpeg>
+    </section>
+
+    <section class="features" id="features" data-magellan-target="features">
+      <h1>Relax and Enjoy Your Stay</h1>
+      <div class="grid-container">
+
+    <div class="grid-x align-middle grid-margin-x grid-margin-y">
+      <div class="cell medium-5 medium-offset-1">
+        <img src=img/hoteltea.jpg>
+      </div>
+      <div class="cell medium-5">
+        <h2>Complementary Tea</h2>
+        <p>An extensive collection of exotic tea is included in each
+room. Relax with a cup of Peach Cobbler Guayasa from the
+Amazon Rainforest, White Pearls tea from China, or many
+other options from around the world.</p>
+      </div>
+    </div>
+
+<div class="grid-x align-middle grid-margin-x grid-margin-y">
+      <div class="cell medium-5 medium-offset-1 small-order-2 medium-order-1">
+        <h2>Luxury Beds</h2>
+        <p>Laguardia Spa Hotel takes great pride in our beds; each is
+made with Belgian linen and a thread count of 500. Have
+a clean and refreshing night’s rest.</p>
+      </div>
+      <div class="cell medium-5 small-order-1 medium-order-2">
+        <img src="img/hotel3.jpg">
+      </div>
+    </div>
+
+<div class="grid-x align-middle grid-margin-x grid-margin-y">
+      <div class="cell medium-5 medium-offset-1">
+        <img src=img/hotel6.jpg>
+      </div>
+      <div class="cell medium-5">
+        <h2>Pool & Spa</h2>
+        <p>Included with your visit is a trip to our renowned spa area,
+a soothing and relaxing experience with a view of the Long
+Island Sound and massages to keep your body healthy.</p>
+      </div>
+    </div>
+  </div>
+</div>
+ </section>
+
+    <section class="reviews" id="reviews">
+      <div data-magellan-target="reviews">
+      <h1>Reviews</h1>
+      <p>See what our clients have to say.</p>
+      <div class="grid-container">
+        <div class="grid-x">
+          <div class="cell medium-8 medium-offset-2">
+      <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <div class="orbit-wrapper">
+    <div class="orbit-controls">
+      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+    </div>
+    <ul class="orbit-container">
+      <li class="is-active orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/review1.jpg" alt="Space">
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/review2.jpg" alt="Space">
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/review3.jpg" alt="Space">
+        </figure>
+      </li>
+    </ul>
+  </div>
+</div>
+  </div>
+  <nav class="orbit-bullets medium-12">
+    <button class="is-active" data-slide="0">
+      <span class="show-for-sr">First slide details.</span>
+      <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+    </button>
+    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+  </nav>
+</div>
+</div>
+</div>
+    </section>
+
+    <section class="reservations" id="reservations" data-magellan-target="reservations">
+      <section class="reservationsheader">
+      <h1>Reservations</h1>
+    </section>
+      <p>Rooms go quick! Book right away to
+ensure you can get one when you
+want it.</p>
+
+    <!-- datepicker widget -->
+    <table class="table">
+      <thead>
+        <tr class="grid-x">
+          <th class="cell small-6">Check in:
+            <input type="text" class="span2" value="" id="dpd1">
+          </th>
+          <th class="cell small-6">Check out:
+            <input type="text" class="span2" value="" id="dpd2">
+          </th>
+        </tr>
+        <tr class="grid-x">
+          <th class="cell">
+            <input type="submit" class="submit button radius small" value="Book Your Room" data-open="confirmation-overlay">
+          </th>
+        </tr>        
+      </thead>
+    </table>
+
+    <!-- overlay window with spans used to show data from datepicker -->
+    <section class="popup">
+<div id="confirmation-overlay" class="reveal" data-reveal>
+  <div class="grid-x">
+    <div class="cell">
+      <section class="popuptext">
+      <h1>Successfully Booked</h1>
+    </section>
+    <section class="popupparagraph">
+      <h2>We hope you enjoy your stay from <span class="dpd1"></span> to <span class="dpd2"></span>!</h2>
+    </section>
+    </div>
+  </div>
+  <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+</div>
+</section>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+  
+  </section>
+    <!--datepicker widget end-->
+
+    <footer>
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="cell small-10">
+      <p>53 Ditmar’s Blvd</p>
+      <p>Queens, NY 11371</p>
+      <p>(718) 555-5555</p>
+          </div>
+          <div class="cell small-2">
+            <img src=img/lsh_logo.png>
+
+  </body>
+
+</html>

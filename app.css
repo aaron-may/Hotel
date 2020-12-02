@@ -1,0 +1,129 @@
+header {
+	position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ z-index: 99999;
+	background-image: linear-gradient(#C4FAFF, #FFFFFF);
+}
+
+
+
+header h1 {
+	font-weight: 700;
+	font-size: 3rem;
+	text-align: center;
+	font-family: Gruppo;
+}
+
+
+header h2 {
+	font-family: Cantiga;
+	font-size: 1.4rem;
+}
+
+.hero img {
+	margin-top: 5.5rem;
+}
+
+.features {
+	background: url(../img/hoteltree2.jpg);
+	padding: 3rem 0;
+}
+
+.features h1 {
+	text-align: center;
+	font-weight: 700;
+	font-family: Gruppo;
+	margin-bottom: 2rem;
+}
+
+.features img {
+	width: 100%;
+}
+
+.features grid-x {
+	margin-bottom: 2rem;
+}
+
+.features h2 {
+	font-family: Cantiga;
+}
+
+.features p {
+	font-family: Quasimoda;
+}
+
+.reviews {
+	padding-top: 1rem;
+}
+
+.reviews h1 {
+	text-align: center;
+	font-weight: 700;
+	font-family: Gruppo;
+}
+
+.reviews p {
+	text-align: center;
+	font-weight: 200px;
+	font-family: Quasimoda;
+}
+
+.reviews img {
+	width: 100%;
+}
+
+.reservationsheader h1 {
+	text-align: center;
+	font-weight: 700;
+	font-family: Gruppo;
+}
+
+.reservations p {
+	text-align: center;
+	font-family: Quasimoda;
+}
+
+
+.popup {
+	background: url(../hoteltree.jpg)
+	no-repeat 50% 50%
+}
+/*
+.popup {
+	background: url(../img/hoteltree2.jpg);
+	padding: 3rem 0;
+}
+*/
+
+.reveal {
+	background-color: #C4FAFF;
+
+}
+
+.popuptext h1 {
+	font-family: Gruppo;
+	font-size: 4rem;
+}
+
+.popupparagraph h2 {
+	font-family: Cantiga;
+	font-size: 2rem;
+}
+
+.popup {
+	reveal-overlay-background: #C4FAFF;
+	}
+
+footer img {
+	padding-top: 1rem;
+}
+
+footer p {
+	font-family: Quasimoda;
+}
+
+footer {
+	background-image: linear-gradient(#C4FAFF, #FFFFFF);
+}
